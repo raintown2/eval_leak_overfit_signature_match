@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "raintown2-promptlead_jd018"
+name = "raintown2-eval_leak_overfit_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别Prompt 工程负责人·评测集泄漏与过拟合的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://raintown2.github.io"
-Repository = "https://github.com/raintown2/promptlead_jd018"
-Issues = "https://github.com/raintown2/promptlead_jd018/issues"
+Repository = "https://github.com/raintown2/eval_leak_overfit_signature_match"
+Issues = "https://github.com/raintown2/eval_leak_overfit_signature_match/issues"
 
 [project.scripts]
-promptlead_jd018 = "promptlead_jd018:main"
+eval_leak_overfit_signature_match = "eval_leak_overfit_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["promptlead_jd018"]
+py-modules = ["eval_leak_overfit_signature_match"]

@@ -1,11 +1,11 @@
-# promptlead_jd018
+# eval_leak_overfit_signature_match
 
 **给Prompt 工程负责人·评测集泄漏与过拟合算一个特征指纹并定位可疑片段。**
 
-`promptlead_jd018` —— 通过字符级与结构级特征识别Prompt 工程负责人·评测集泄漏与过拟合的痕迹，给出密度与命中位置
+`eval_leak_overfit_signature_match` —— 通过字符级与结构级特征识别Prompt 工程负责人·评测集泄漏与过拟合的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`promptlead_jd018.py` 拷走就能用
+- 单文件，`eval_leak_overfit_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install raintown2-promptlead_jd018
+pip install raintown2-eval_leak_overfit_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-promptlead_jd018 --help
+eval_leak_overfit_signature_match --help
 ```
 
-也可以不用安装，直接把 `promptlead_jd018.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `eval_leak_overfit_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ promptlead_jd018 --help
 ## 用法
 
 ```bash
-python promptlead_jd018.py --file input.txt
-python promptlead_jd018.py --text "示例内容"
-python promptlead_jd018.py --file input.txt --json
+python eval_leak_overfit_signature_match.py --file input.txt
+python eval_leak_overfit_signature_match.py --text "示例内容"
+python eval_leak_overfit_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python promptlead_jd018.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_promptlead_jd018.py
+python test_eval_leak_overfit_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_promptlead_jd018.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/raintown2/promptlead_jd018>
+- GitHub 仓库：<https://github.com/raintown2/eval_leak_overfit_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_promptlead_jd018.py
 raintown2 做Prompt 工程负责人·评测集泄漏与过拟合相关的问题，方向对标零一万物的初级Prompt 工程负责人岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://raintown2.github.io>
-- 仓库：<https://github.com/raintown2/promptlead_jd018>
+- 仓库：<https://github.com/raintown2/eval_leak_overfit_signature_match>
 
 ## 许可
 
